@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.Sidebar {
+    color:wheat;
+    background-color:black;
+    width: 30vm;
+    height:200vh;
+}
+
+.Sidebar nav {
+    padding: 25px;
+}
+
+.Sidebar nav li {
+   list-style: none;
+   font-size: 30px;
+   padding: 33px 0;
+}
+
+.Sidebar nav li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.main{
+    background-color: rgb(209, 196, 208);
+    width: 90vw;
+    background-image: url('istockphoto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer{
+    background-color: black;
+    height: 60vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons {
+    margin-top: 34px;
+}
+.btn {
+    padding: 7px 12px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img{
+    width: 320px;
+    height: 386px;
+}
+.hello{
+    color: beige;
+}
+
+.about{
+    color: beige;
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-size: 2rem;
+}
+
+.contactform h1{
+padding: 12px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display:flex;
+    flex-direction: column;
+}
+
+.Contactform form div input{
+    width: 26vm;
+      border-radius: 5px;
+      margin:6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 15px;
+    color: rgb(4, 38, 80);
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width:24px;
+    margin: 3px 0;
+}
+
+p{
+    font-size: 20px;
+}
+.Skillcontainer{
+    padding: 12px;
+}
+
+.Skillitem{
+    display: flex;
+    align-items: center;
+    font-size: 900px;
+
+}
+.Skill{
+    width:70px;
+    height: 23px;
+    background-color: rgb(26, 1, 18);
+}
+
+
+.footer{
+    align-items: end;
+    background-color: black;
+    height: 100%;
+    
+}
